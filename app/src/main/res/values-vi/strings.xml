@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">BIT240017 Quản Lý Món Ăn</string>
+    <string name="mssv_display">MSSV: BIT240017</string>
+
+    <!-- Language -->
+    <string name="lang_switch">Ngôn ngữ / Language</string>
+    <string name="lang_english">English</string>
+    <string name="lang_vietnamese">Tiếng Việt</string>
+
+    <!-- Network Status -->
+    <string name="status_online">Đã kết nối</string>
+    <string name="status_offline">Ngoại tuyến</string>
+    <string name="status_syncing">Đang đồng bộ...</string>
+
+    <!-- Navigation & Titles -->
+    <string name="title_dish_list">Danh Sách Món Ăn</string>
+    <string name="title_dish_detail">Chi Tiết Món Ăn</string>
+    <string name="title_add_dish">Thêm Món Ăn Mới</string>
+    <string name="title_edit_dish">Chỉnh Sửa Món Ăn</string>
+    <string name="title_categories">Quản Lý Loại Món Ăn</string>
+    <string name="title_add_category">Thêm Loại Món Ăn</string>
+
+    <!-- Search & Filter -->
+    <string name="search_hint">Tìm kiếm món ăn theo tên hoặc mô tả...</string>
+    <string name="filter_title">Bộ Lọc &amp; Sắp Xếp</string>
+    <string name="filter_category">Loại Món Ăn</string>
+    <string name="filter_all_categories">Tất Cả Loại Món</string>
+    <string name="filter_status">Trạng Thái Bán</string>
+    <string name="filter_all_statuses">Tất Cả Trạng Thái</string>
+    <string name="filter_available_only">Đang Bán</string>
+    <string name="filter_price_range">Khoảng Giá (VNĐ)</string>
+    <string name="filter_min_price">Giá Tối Thiểu</string>
+    <string name="filter_max_price">Giá Tối Đa</string>
+    <string name="sort_by">Sắp Xếp Theo</string>
+    <string name="sort_price_asc">Giá: Thấp đến Cao</string>
+    <string name="sort_price_desc">Giá: Cao đến Thấp</string>
+    <string name="sort_prep_time_asc">Thời Gian Chế Biến: Nhanh đến Chậm</string>
+    <string name="btn_apply_filter">Áp Dụng Bộ Lọc</string>
+    <string name="btn_reset_filter">Xóa Bộ Lọc</string>
+
+    <!-- Dish Item & Details -->
+    <string name="label_price">Giá bán:</string>
+    <string name="label_prep_time">Thời gian chế biến:</string>
+    <string name="label_category">Loại món:</string>
+    <string name="label_status">Trạng thái:</string>
+    <string name="label_description">Mô tả:</string>
+    <string name="label_images">Hình ảnh món ăn:</string>
+
+    <string name="status_available">Đang Bán</string>
+    <string name="status_unavailable">Ngừng Bán</string>
+
+    <string name="badge_quick">Quick / Nhanh (≤ 15 phút)</string>
+    <string name="badge_regular">Regular / Thông thường (> 15 phút)</string>
+
+    <!-- Form Inputs -->
+    <string name="input_dish_name">Tên Món Ăn *</string>
+    <string name="input_price">Giá Bán (VNĐ) *</string>
+    <string name="input_prep_time">Thời Gian Chế Biến (Phút) *</string>
+    <string name="input_is_available">Trạng Thái Đang Mở Bán</string>
+    <string name="input_description">Mô Tả Món Ăn</string>
+    <string name="input_image_url">Đường Dẫn Ảnh (URL)</string>
+    <string name="btn_add_image">Thêm URL Ảnh</string>
+    <string name="btn_set_thumbnail">Đặt Làm Ảnh Đại Diện</string>
+    <string name="is_thumbnail_tag">Ảnh Đại Diện</string>
+
+    <!-- Category Form -->
+    <string name="input_cat_name">Tên Loại Món Ăn *</string>
+    <string name="input_cat_desc">Mô Tả Loại Món Ăn</string>
+    <string name="btn_save_category">Lưu Loại Món Ăn</string>
+
+    <!-- Buttons & Actions -->
+    <string name="btn_save">Lưu Món Ăn</string>
+    <string name="btn_edit">Chỉnh Sửa</string>
+    <string name="btn_delete">Xóa</string>
+    <string name="btn_cancel">Hủy Bỏ</string>
+    <string name="btn_manage_categories">Quản Lý Loại Món</string>
+    <string name="btn_add_dish_fab">Thêm Món</string>
+
+    <!-- Dialogs & Confirmation -->
+    <string name="dialog_delete_title">Xác Nhận Xóa</string>
+    <string name="dialog_delete_dish_msg">Bạn có chắc chắn muốn xóa món ăn này không? Thao tác này không thể hoàn tác.</string>
+    <string name="dialog_delete_cat_msg">Bạn có chắc chắn muốn xóa loại món ăn này không?</string>
+    <string name="btn_confirm_delete">Xóa Vẫn Tiếp Tục</string>
+
+    <!-- Validation & Error Messages -->
+    <string name="error_empty_name">Tên món ăn không được để trống.</string>
+    <string name="error_invalid_price">Giá bán phải lớn hơn 0.</string>
+    <string name="error_invalid_prep_time">Thời gian chế biến phải lớn hơn 0.</string>
+    <string name="error_empty_category">Vui lòng chọn loại món ăn hợp lệ.</string>
+    <string name="error_duplicate_dish_name">Tên món ăn đã tồn tại trong loại món này. Vui lòng chọn tên khác.</string>
+    <string name="error_cat_in_use">Không thể xóa loại món ăn này vì đang chứa món ăn còn hoạt động.</string>
+    <string name="error_empty_cat_name">Tên loại món ăn không được để trống.</string>
+    <string name="error_invalid_image_url">Vui lòng nhập đường dẫn ảnh hợp lệ.</string>
+    <string name="error_no_images">Vui lòng thêm ít nhất một đường dẫn ảnh cho món ăn.</string>
+    <string name="msg_dish_saved">Đã lưu món ăn thành công!</string>
+    <string name="msg_dish_deleted">Đã xóa món ăn thành công.</string>
+    <string name="msg_category_saved">Đã lưu loại món ăn thành công!</string>
+    <string name="msg_category_deleted">Đã xóa loại món ăn thành công.</string>
+    <string name="empty_dish_list">Không tìm thấy món ăn nào phù hợp với bộ lọc.</string>
+    <string name="empty_category_list">Chưa có loại món ăn nào.</string>
+</resources>

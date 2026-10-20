@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">BIT240017 FoodManager</string>
+    <string name="mssv_display">MSSV: BIT240017</string>
+
+    <!-- Language -->
+    <string name="lang_switch">Language / Ngôn ngữ</string>
+    <string name="lang_english">English</string>
+    <string name="lang_vietnamese">Tiếng Việt</string>
+
+    <!-- Network Status -->
+    <string name="status_online">Online</string>
+    <string name="status_offline">Offline</string>
+    <string name="status_syncing">Syncing...</string>
+
+    <!-- Navigation & Titles -->
+    <string name="title_dish_list">Dish List</string>
+    <string name="title_dish_detail">Dish Detail</string>
+    <string name="title_add_dish">Add New Dish</string>
+    <string name="title_edit_dish">Edit Dish</string>
+    <string name="title_categories">Category Management</string>
+    <string name="title_add_category">Add Category</string>
+
+    <!-- Search & Filter -->
+    <string name="search_hint">Search dish by name or description...</string>
+    <string name="filter_title">Filter &amp; Sort</string>
+    <string name="filter_category">Category</string>
+    <string name="filter_all_categories">All Categories</string>
+    <string name="filter_status">Availability Status</string>
+    <string name="filter_all_statuses">All Statuses</string>
+    <string name="filter_available_only">Available Only</string>
+    <string name="filter_price_range">Price Range (VND)</string>
+    <string name="filter_min_price">Min Price</string>
+    <string name="filter_max_price">Max Price</string>
+    <string name="sort_by">Sort By</string>
+    <string name="sort_price_asc">Price: Low to High</string>
+    <string name="sort_price_desc">Price: High to Low</string>
+    <string name="sort_prep_time_asc">Preparation Time: Fast to Slow</string>
+    <string name="btn_apply_filter">Apply Filter</string>
+    <string name="btn_reset_filter">Reset Filter</string>
+
+    <!-- Dish Item & Details -->
+    <string name="label_price">Price:</string>
+    <string name="label_prep_time">Prep Time:</string>
+    <string name="label_category">Category:</string>
+    <string name="label_status">Status:</string>
+    <string name="label_description">Description:</string>
+    <string name="label_images">Dish Images:</string>
+
+    <string name="status_available">Available</string>
+    <string name="status_unavailable">Stopped Selling</string>
+
+    <string name="badge_quick">Quick (≤ 15 mins)</string>
+    <string name="badge_regular">Regular (> 15 mins)</string>
+
+    <!-- Form Inputs -->
+    <string name="input_dish_name">Dish Name *</string>
+    <string name="input_price">Price (VND) *</string>
+    <string name="input_prep_time">Preparation Time (Minutes) *</string>
+    <string name="input_is_available">Is Available for Sale</string>
+    <string name="input_description">Description</string>
+    <string name="input_image_url">Image URL</string>
+    <string name="btn_add_image">Add Image URL</string>
+    <string name="btn_set_thumbnail">Set as Thumbnail</string>
+    <string name="is_thumbnail_tag">Thumbnail</string>
+
+    <!-- Category Form -->
+    <string name="input_cat_name">Category Name *</string>
+    <string name="input_cat_desc">Category Description</string>
+    <string name="btn_save_category">Save Category</string>
+
+    <!-- Buttons & Actions -->
+    <string name="btn_save">Save Dish</string>
+    <string name="btn_edit">Edit</string>
+    <string name="btn_delete">Delete</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_manage_categories">Manage Categories</string>
+    <string name="btn_add_dish_fab">Add Dish</string>
+
+    <!-- Dialogs & Confirmation -->
+    <string name="dialog_delete_title">Confirm Deletion</string>
+    <string name="dialog_delete_dish_msg">Are you sure you want to delete this dish? This action cannot be undone.</string>
+    <string name="dialog_delete_cat_msg">Are you sure you want to delete this category?</string>
+    <string name="btn_confirm_delete">Delete</string>
+
+    <!-- Validation & Error Messages -->
+    <string name="error_empty_name">Dish name cannot be empty.</string>
+    <string name="error_invalid_price">Price must be greater than 0.</string>
+    <string name="error_invalid_prep_time">Preparation time must be greater than 0.</string>
+    <string name="error_empty_category">Please select a valid category.</string>
+    <string name="error_duplicate_dish_name">Dish name already exists in this category. Please choose a different name.</string>
+    <string name="error_cat_in_use">Cannot delete category because it contains active dishes.</string>
+    <string name="error_empty_cat_name">Category name cannot be empty.</string>
+    <string name="error_invalid_image_url">Please enter a valid image URL.</string>
+    <string name="error_no_images">Please add at least one image URL for the dish.</string>
+    <string name="msg_dish_saved">Dish saved successfully!</string>
+    <string name="msg_dish_deleted">Dish deleted successfully.</string>
+    <string name="msg_category_saved">Category saved successfully!</string>
+    <string name="msg_category_deleted">Category deleted successfully.</string>
+    <string name="empty_dish_list">No dishes found matching your criteria.</string>
+    <string name="empty_category_list">No categories available.</string>
+</resources>
